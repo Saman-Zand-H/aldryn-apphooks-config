@@ -3,7 +3,7 @@ from __future__ import absolute_import, print_function, unicode_literals
 
 from django.db.models import Manager
 from django.db.models.query import QuerySet
-from django.utils.translation import ugettext
+from django.utils.translation import gettext
 
 from ..utils import get_apphook_field_names
 
